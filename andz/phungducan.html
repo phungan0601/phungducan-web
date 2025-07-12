@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>DU LỊCH PHÚ THỌ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+
+    <!-- Vùng đầu trang -->
+    <header>
+      <img src="Phung Duc an\OneDrive\Máy tính\andz\pexels-pixasquare-1115804.jpg" 
+           alt="Banner" class="banner-img">
+      <div class="header-title">PDA HOTEL</div>
+    </header>
+
+    <main>
+      <!-- Vùng danh mục bên trái -->
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/Phung%20Duc%20an/OneDrive/M%C3%A1y%20t%C3%ADnh/phungducan.html">Trang chủ</a></li>
+          <li><a href="https://nguoiphutho.com/doi-che-long-coc.html ">Các điểm đến</a></li>
+          <li><a href="https://www.google.com/maps/@21.1977585,105.6153293,10z?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D">Ẩm thực</a></li>
+          <li><a href="https://www.google.com/maps/@21.1977585,105.6153293,10z?entry=ttu&g_ep=EgoyMDI1MDcwOS4wIKXMDSoASAFQAw%3D%3D">Giao thông</a></li>
+          <li><a href="https://www.traveloka.com/vi-vn/hotel/vietnam/area/xuan-dai-commune-30015440">Khách sạn</a></li>
+          <li><b><a href="https://www.facebook.com/share/1DpybSfFpB/?mibextid=wwXIfr" target="_blank">Liên hệ</a></b></li>
+
+        </ul>
+      </nav>
+
+      <!-- Vùng nội dung chính -->
+      <section class="main-content">
+        <h2>Liên hệ</h2> 
+        <form id="contactForm" action="#" method="post" autocomplete="off">
+
+          <div class="form-group">
+            <label for="hoten">Họ và Tên</label>
+            <input type="text" id="hoten" name="hoten" placeholder="Nhập họ tên" required>
+          </div>
+
+          <div class="form-group">
+            <label for="dienthoai">Điện thoại</label>
+            <input type="text" id="dienthoai" name="dienthoai" placeholder="Nhập điện thoại" required>
+          </div>
+
+          <div class="form-group email-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Nhập email">
+            <select id="domain" name="domain">
+              <option value="@gmail.com" selected>@gmail.com</option>
+              <option value="@yahoo.com">@yahoo.com</option>
+              <option value="@hotmail.com">@hotmail.com</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioitinh" value="Nam" checked>
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="Nữ">
+            <label for="nu">Nữ</label>
+          </div>
+
+          <div class="form-group">
+            <label for="noidung">Nội dung</label>
+            <textarea id="noidung" name="noidung" rows="4"></textarea>
+          </div>
+
+          <div class="form-buttons">
+            <button type="reset">Nhập lại</button>
+            <button type="submit">Chấp nhận</button>
+          </div>
+
+          <!-- ✅ Gộp .note vào đúng trong form -->
+          <div class="note">Chúng tôi sẽ liên lạc với bạn ngay khi nhận được thông tin đăng ký này.</div>
+
+        </form>
+      </section>
+    </main>
+
+    <!-- Vùng chân trang -->
+    <footer>
+      <div>
+        Copyright © 2025  Khoa Công Nghệ Thông tin, Đại học Công nghiệp Việt-Hung.<br>
+        Khu A: Số 16 Hữu Nghị, Xuân Khanh, Sơn Tây, TP. Hà Nội<br>
+        Khu B: Khu công nghiệp Bình Phú, huyện Thạch Thất, TP. Hà Nội<br>
+        Điện thoại: 024 33838345 &nbsp; website: viu.edu.vn &nbsp; email: dhcnviethung.viu@gmail.com<br>
+        CSKH LIên hệ: Phùng Đức An; Fb Phung An; sdt 0812350210.
+      </div>
+    </footer>
+
+  </div>
+</body>
+</html>
